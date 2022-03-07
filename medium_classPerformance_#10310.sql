@@ -22,3 +22,13 @@ FROM
     (SELECT student, sum(assignment1+assignment2+assignment3) AS score 
     FROM box_scores
     group by 1) AS scores
+
+
+/* Re practice - confidence 4/5 */
+WITH total_score AS(
+    SELECT id, student, (assignment1 + assignment2 + assignment3) as total
+    FROM box_scores
+)
+
+SELECT MAX(total)-MIN(total) AS difference_in_scores
+FROM total_score
