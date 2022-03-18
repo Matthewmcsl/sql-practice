@@ -1,5 +1,5 @@
 /*
-https://plahttps://platform.stratascratch.com/coding/10090-find-the-percentage-of-shipable-orders?python=tform.stratascratch.com/coding/10171-find-the-genre-of-the-person-with-the-most-number-of-oscar-winnings?python=
+https://platform.stratascratch.com/coding/10090-find-the-percentage-of-shipable-orders?python=tform.stratascratch.com/coding/10171-find-the-genre-of-the-person-with-the-most-number-of-oscar-winnings?python=
 
 Find the percentage of shipable orders
 Consider an order is shipable if the customer's address is known.
